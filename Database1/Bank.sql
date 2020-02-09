@@ -1,0 +1,4 @@
+﻿CREATE TABLE [dbo].[Bank]
+(
+	[BankId] NVARCHAR(50) NOT NULL PRIMARY KEY
+)
