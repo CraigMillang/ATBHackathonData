@@ -28,4 +28,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="TranCompanyName" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="c304a727-522c-4477-a121-3e92bbcc47c7" ChangeDateTime="02/09/2020 16:22:32">
+    <Property Name="ElementName" Value="[dbo].[TwitterRecomendations].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TwitterRecomendations]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bc181ca0-3bea-4f8a-be91-c5358c3307ab" ChangeDateTime="02/09/2020 16:29:26">
+    <Property Name="ElementName" Value="[dbo].[TwitterRecomendations].[Company]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TwitterRecomendations]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SocialCompany" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8af2bc05-f200-4803-8729-e85af0747f4c" ChangeDateTime="02/09/2020 16:58:29">
+    <Property Name="ElementName" Value="[dbo].[TwitterRecomendations].[SocalNetwork]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TwitterRecomendations]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SocialNetwork" />
+  </Operation>
 </Operations>

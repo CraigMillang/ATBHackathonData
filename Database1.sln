@@ -5,6 +5,13 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database1", "Database1\Database1.sqlproj", "{1622201D-96E3-463D-BA84-EA64F90492C8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{C607C67A-CD91-4947-9C33-4D7D38B0BEC2}"
+	ProjectSection(SolutionItems) = preProject
+		Database1\NASDAQ2.json = Database1\NASDAQ2.json
+		Database1\NYSE.json = Database1\NYSE.json
+		..\..\Downloads\TwitterData.json = ..\..\Downloads\TwitterData.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
