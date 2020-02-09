@@ -28,4 +28,39 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="TranCompanyName" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="c304a727-522c-4477-a121-3e92bbcc47c7" ChangeDateTime="02/09/2020 16:22:32">
+    <Property Name="ElementName" Value="[dbo].[TwitterRecomendations].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TwitterRecomendations]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bc181ca0-3bea-4f8a-be91-c5358c3307ab" ChangeDateTime="02/09/2020 16:29:26">
+    <Property Name="ElementName" Value="[dbo].[TwitterRecomendations].[Company]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TwitterRecomendations]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SocialCompany" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8af2bc05-f200-4803-8729-e85af0747f4c" ChangeDateTime="02/09/2020 16:58:29">
+    <Property Name="ElementName" Value="[dbo].[TwitterRecomendations].[SocalNetwork]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TwitterRecomendations]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SocialNetwork" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8461d223-4540-4457-b156-6e2aa895b754" ChangeDateTime="02/09/2020 17:40:57">
+    <Property Name="ElementName" Value="[dbo].[User].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0ff9be1f-eb15-40a0-b103-1a40169e248b" ChangeDateTime="02/09/2020 17:41:36">
+    <Property Name="ElementName" Value="[dbo].[FK_AccountsJson_User (]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[AccountsJson]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_AccountsJson_User (UserName)]" />
+  </Operation>
 </Operations>

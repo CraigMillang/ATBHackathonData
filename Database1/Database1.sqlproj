@@ -135,6 +135,20 @@
     <Build Include="AccountTransactions.sql" />
     <Build Include="CompanyInfo.sql" />
     <Build Include="TranCompanies.sql" />
+    <Build Include="TwitterRecomendations.sql" />
+    <Build Include="dbo\Stored Procedures\StockViews.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Stored Procedures\InsertTransactions.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="dbo\Stored Procedures\InsertSocialJson.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="User.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Database1.refactorlog" />
